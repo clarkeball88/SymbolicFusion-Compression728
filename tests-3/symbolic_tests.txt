@@ -1,0 +1,25 @@
+
+# SYMBOLIC TEST CASES FILE
+# Format: ⟦a,b⟧ OP ⟦c,d⟧ => ⟦result_x,result_y⟧
+
+# -------- ADDITION TESTS --------
+⟦1,1⟧ + ⟦2,2⟧ => ⟦3,3⟧
+⟦4,4⟧ + ⟦5,5⟧ => ⟦9,9⟧
+⟦11,12⟧ + ⟦13,14⟧ => ⟦24,26⟧
+
+# -------- SUBTRACTION TESTS --------
+⟦5,5⟧ - ⟦2,2⟧ => ⟦3,3⟧
+⟦12,13⟧ - ⟦11,11⟧ => ⟦1,2⟧
+
+# -------- MULTIPLICATION TESTS --------
+⟦2,2⟧ * ⟦3,3⟧ => ⟦6,6⟧
+⟦4,4⟧ * ⟦5,5⟧ => ⟦20,20⟧
+
+# -------- DIVISION TESTS (Symbolic Ratios) --------
+⟦6,6⟧ ÷ ⟦2,2⟧ => ⟦3,3⟧
+⟦9,9⟧ ÷ ⟦3,3⟧ => ⟦3,3⟧
+⟦8,9⟧ ÷ ⟦5,5⟧ => MACRO_PHI
+
+# -------- SYMBOLIC CONSTANT TESTS --------
+⟦2,2⟧ ÷ ⟦7⟧ => MACRO_PI
+⟦9,9⟧ ÷ ⟦7,0⟧ => MACRO_SQRT2
